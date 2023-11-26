@@ -1,0 +1,19 @@
+@import "../assets/styles/colors.scss";
+
+@mixin lilacLink {
+    color: $black-color;
+    transition: 0.3s;
+    &:hover {
+        color: $lilac-color;
+    }
+}
+
+@mixin blackLink {
+    color: $black-color;
+    text-decoration: none;
+    transition: 0.3s;
+    border-bottom: 1px solid transparent;
+    &:hover {
+        border-bottom: 1px solid $black-color;
+    }
+}
